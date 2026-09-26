@@ -1,11 +1,12 @@
-name: simm
+name: simran
+
 on: 
- push: 
-  branches: [ main ]
+  push: 
+   branches: [ main ]
 
 jobs:
   demo:
-   runs-on: ubuntu-latest
-   steps:
-      - name: simmu
-       run: "hello simran"
+    runs-on: ubuntu-latest
+    steps:
+        - name: simmu
+        run: "hello simran"
